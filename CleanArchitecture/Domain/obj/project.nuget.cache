@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NNK4BXK8dXOqPl1QdJrvBPBrMsqhrWHXN+H+PkjmjJuylpPNiB050Kyn9enluAJoNaYAa2KpFJmGPZ+zHeh1wQ==",
+  "dgSpecHash": "BJjB2u7wZkmJUnnI+Ey5LleF8Of/351/ESp0HP5n6WTww/AkY38W1EIdcF7IAZ0RdIru+Z3GfynxcIDOyUL7DQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\CleanArchitecture\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Projects\\clean-architecture\\CleanArchitecture\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\argan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\argan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",

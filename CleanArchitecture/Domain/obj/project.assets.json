@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\CleanArchitecture\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\Projects\\clean-architecture\\CleanArchitecture\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Projects\\CleanArchitecture\\Domain\\Domain.csproj",
+      "projectPath": "D:\\Projects\\clean-architecture\\CleanArchitecture\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\argan\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\CleanArchitecture\\Domain\\obj\\",
+      "outputPath": "D:\\Projects\\clean-architecture\\CleanArchitecture\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\argan\\AppData\\Roaming\\NuGet\\NuGet.Config",

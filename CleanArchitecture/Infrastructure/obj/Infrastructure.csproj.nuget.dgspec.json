@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\CleanArchitecture\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Projects\\clean-architecture\\CleanArchitecture\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\CleanArchitecture\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Projects\\clean-architecture\\CleanArchitecture\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\CleanArchitecture\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projects\\clean-architecture\\CleanArchitecture\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Projects\\CleanArchitecture\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Projects\\clean-architecture\\CleanArchitecture\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\argan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\CleanArchitecture\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Projects\\clean-architecture\\CleanArchitecture\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\argan\\AppData\\Roaming\\NuGet\\NuGet.Config",
