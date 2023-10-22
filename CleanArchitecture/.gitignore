@@ -1,7 +1,7 @@
-/.vs/
-/Application/bin/
-/Application/obj/
-/Domain/bin/
-/Domain/obj/
-/Infrastructure/bin/
-/Infrastructure/obj/
+/src/.vs/
+/src/Application/bin/
+/src/Application/obj/
+/src/Domain/bin/
+/src/Domain/obj/
+/src/Infrastructure/bin/
+/src/Infrastructure/obj/
