@@ -1,5 +1,4 @@
 ﻿using CleanArchitecture.Application.Features.UserFeatures.CreateUser;
-using CleanArchitecture.Infrastructure.Data;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,17 +12,15 @@ namespace CleanArchitecture.Controllers
     public class RegistrationController : Controller
     {
         private readonly IMediator _mediator;
-        private readonly CleanArchitectureDbContext _context;
 
         /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="mediator"></param>
         /// <param name="context"></param>
-        public RegistrationController(IMediator mediator, CleanArchitectureDbContext context)
+        public RegistrationController(IMediator mediator)
         {
             _mediator = mediator;
-            _context = context;
         }
 
         /// <summary>
@@ -41,3 +38,4 @@ namespace CleanArchitecture.Controllers
         }
     }
 }
+

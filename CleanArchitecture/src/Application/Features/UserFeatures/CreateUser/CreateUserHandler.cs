@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CleanArchitecture.Application.Common.Exceptions;
 using CleanArchitecture.Application.Common.Interfaces;
 using CleanArchitecture.Application.Repositories;
 using CleanArchitecture.Domain.Common.Interfaces;
@@ -43,6 +44,11 @@ namespace CleanArchitecture.Application.Features.UserFeatures.CreateUser
             request.Password = _passwordService.HashPassword(request.Password);
 
             User? user = _mapper.Map<User>(request);
+
+            if (_userRepository.GetByEmail(request.Email) != null || _userRepository.GetByPseudo(request.Pseudo) != null)
+            {
+                throw new NotUniqueRessourceException("Mail or pseudo is already used");
+            }
 
             _userRepository.Create(user);
 

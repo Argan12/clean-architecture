@@ -19,6 +19,8 @@ namespace Microsoft.Extensions.DependencyInjection
 
             services.AddScoped<ICleanArchitectureDbContext>(provider => provider.GetService<CleanArchitectureDbContext>());
 
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
+            services.AddScoped<IJwtService, JwtService>();
             services.AddScoped<IPasswordService, PasswordService>();
             services.AddScoped<IUserRepository, UserRepository>();
 
