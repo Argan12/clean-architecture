@@ -9,6 +9,6 @@ namespace CleanArchitecture.Application.Common.Interfaces
         DbSet<Comment> Comments { get; set; }
         DbSet<User> Users { get; set; }
 
-        Task<int> SaveChangesAsync();
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
 }
