@@ -39,12 +39,7 @@ namespace CleanArchitecture.Infrastructure.Services
         {
             User user = _userRepository.GetByEmail(email);
 
-            if (user == null)
-            {
-                throw new InvalidCredentialsException("Invalid credentials");
-            }
-
-            if (!_passwordService.VerifyPassword(user.Password!, password))
+            if (user == null || !_passwordService.VerifyPassword(user.Password!, password))
             {
                 throw new InvalidCredentialsException("Invalid credentials");
             }
